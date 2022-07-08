@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 122, 43);
+    width: 100%;
+}
+
+.block {
+    background-color: rgb(255, 204, 0);
+    border: 2px dashed rgb(147, 25, 222);
+    height: 60px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.header,
+.footer,
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block1{
+    width: 45%;
+    float: left;
+}
+
+.block2{
+    width: 45%;
+    float: right;
+}
+
+.block3{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    clear: both;
+}
+
